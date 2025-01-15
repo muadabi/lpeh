@@ -377,4 +377,49 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
  **Implementing a restore function**
 
- 
+ ## Writing an packet sniffer
+
+ **Introduction and teaser**
+
+ PACKET_SNIFFER
+ - capture data flowing through an interface.
+ - filter this data.
+ - display intersesting information such as:
+    - login info (username & passwords).
+    - visited websites.
+    - images.
+    - etc.
+
+**Sniffing packets using scapy**
+
+**Extracting data from a specific layer**
+
+**Analysing sniffed packet & extracting fields from layers**
+
+**Analysing fields & extracting passwords**
+
+**Extracting URLs**
+
+**capturing passwords from any computer connected to the same network**
+
+**Strings & bytes in Python 3**
+
+## 07 - Writting a DNS Spoofer
+
+**Intercepting Packets - creating a proxy**
+
+**Converting packets to Scapy packets**
+
+**Introduction to DNS spoofing**
+
+**Filtering DNS responses**
+
+**Amalysing & creating a custom DNS response**
+
+**Modify packets on the fly**
+
+**Redicrect DNS respnoses**
+
+## Writting a file incerceptor
+
+**Introduction & teaser**
